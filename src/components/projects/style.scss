@@ -1,0 +1,40 @@
+.projects {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.project {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.project-description {
+  text-align: center;
+  margin: 0;
+  padding: 0 20px;
+  color: #666;
+}
