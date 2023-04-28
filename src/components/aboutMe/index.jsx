@@ -1,5 +1,5 @@
+import { ABOUT_ME_TEXT } from '../../constants'
 import './style.scss'
-
 
 export function AboutMe() {
   return (
@@ -7,11 +7,7 @@ export function AboutMe() {
       <div class="about-container">
         <h2 class="about-title">About me</h2>
         <p class="about-text">
-          Front-end developer specialized in React and React Native, with extensive experience 
-          in developing attractive and responsive user interfaces for web and mobile applications. 
-          Skills in HTML, CSS, JavaScript, and other front-end technologies, besides Styled components, 
-          Material UI and consuming REST APIs. With a strong passion for web and mobile development, 
-          always looking for new technologies and trends to further enhance all skills. 
+          {ABOUT_ME_TEXT}
         </p>
         <div class="about-social">
           <a href="https://github.com/lucasclmb1" target="_blank" rel="noreferrer">
