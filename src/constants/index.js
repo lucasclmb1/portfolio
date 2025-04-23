@@ -1,1 +1,0 @@
-export { ABOUT_ME_TEXT } from './general'
