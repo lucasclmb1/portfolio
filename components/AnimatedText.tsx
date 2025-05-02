@@ -10,8 +10,10 @@ interface AnimatedTextProps {
 }
 
 export default function AnimatedText({ text, className, once = true }: AnimatedTextProps) {
+  // Split text into an array of characters
   const characters = text.split("");
 
+  // Animation variants for characters
   const characterAnimation = {
     hidden: { 
       opacity: 0,

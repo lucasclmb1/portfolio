@@ -24,11 +24,13 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
     
+    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitted(true);
       setFormData({ name: "", email: "", message: "" });
       
+      // Reset success message after 5 seconds
       setTimeout(() => setSubmitted(false), 5000);
     }, 1500);
   };

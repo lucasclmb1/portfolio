@@ -1,5 +1,6 @@
 import { PencilRuler, Code, BarChart } from "lucide-react";
 
+// Skills icons mapping
 export const skillsIcons = {
   HTML: "/icons/html.svg",
   CSS: "/icons/css.svg",
@@ -12,6 +13,7 @@ export const skillsIcons = {
   LUA: "/icons/lua.svg", 
 };
 
+// Social links
 export const socialLinks = {
   instagram: "https://www.instagram.com/lucasclmb_/",
   linkedin: "https://www.linkedin.com/in/lucasclmb/",
@@ -19,6 +21,7 @@ export const socialLinks = {
   whatsapp: "https://wa.me/51981677930",
 };
 
+// Skills categorization
 export const skillCategories = [
   {
     icon: Code,
@@ -37,6 +40,7 @@ export const skillCategories = [
   }
 ];
 
+// Experience data
 export const experiences = [
   {
     company: "CWI Software",
@@ -75,36 +79,5 @@ export const experiences = [
       "Git",
       "Inglês"
     ]
-  }
-];
-
-export const projects = [
-  {
-    title: "Canal OFF",
-    type: "Next.js App",
-    description: "Plataforma de vídeos de esportes radicais",
-    technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    image: "https://images.pexels.com/photos/1604869/pexels-photo-1604869.jpeg",
-  },
-  {
-    title: "Alloha Fibra",
-    type: "Web App",
-    description: "Website para empresa de internet",
-    technologies: ["React", "Next.js", "Tailwind CSS"],
-    image: "https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg",
-  },
-  {
-    title: "Riachuelo PDV",
-    type: "Ponto de Venda",
-    description: "Sistema de PDV para Riachuelo",
-    technologies: ["React", "TypeScript", "Node.js"],
-    image: "https://images.pexels.com/photos/1437866/pexels-photo-1437866.jpeg",
-  },
-  {
-    title: "Robô de Vendas",
-    type: "Automação",
-    description: "Automação de processos de vendas",
-    technologies: ["Lua", "JavaScript"],
-    image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
   }
 ];

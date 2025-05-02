@@ -6,7 +6,7 @@ import GeometricDecoration from "@/components/GeometricDecoration";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 
-// TODO lucasclmb: Ajustar testemunhos
+// Sample testimonials (normally would come from a real data source)
 const testimonials = [
   {
     name: "Ana Silva",

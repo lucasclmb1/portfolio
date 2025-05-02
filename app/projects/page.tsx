@@ -1,9 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
-import { projects } from "@/constants";
 import { SectionTitle } from "@/components/ui/typography";
-import ProjectCard from "@/components/ProjectCard";
 import GeometricDecoration from "@/components/GeometricDecoration";
 
 export default function ProjectsPage() {
@@ -15,17 +13,8 @@ export default function ProjectsPage() {
       
       <SectionTitle>{t.projects.title}</SectionTitle>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            title={project.title}
-            type={project.type}
-            description={project.description}
-            image={project.image}
-            technologies={project.technologies}
-          />
-        ))}
+      <div className="flex justify-center items-center">
+        {t.status}
       </div>
     </div>
   );

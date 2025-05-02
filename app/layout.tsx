@@ -5,12 +5,13 @@ import { ThemeProvider } from '@/context/ThemeContext';
 import { LanguageProvider } from '@/context/LanguageContext';
 import Sidebar from '@/components/Sidebar';
 import SocialSidebar from '@/components/SocialSidebar';
+import Header from '@/components/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Lucas Colombo | Frontend Developer',
-  description: 'Portfolio de Lucas Colombo - Desenvolvedor Frontend e UX/UI Designer',
+  title: 'Lucas Colombo | Frontend Software Engineer',
+  description: 'Portfolio de Lucas Colombo - Engenheiro de Software Frontend',
 };
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ThemeProvider>
           <LanguageProvider>
             <div className="min-h-screen bg-background text-foreground flex flex-col">
+              <Header />
               <Sidebar />
               <SocialSidebar />
               <main className="flex-1 md:pl-[200px] md:pr-[70px]">

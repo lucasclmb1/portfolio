@@ -22,7 +22,7 @@ export default function LanguageSwitch() {
         className="w-full flex items-center space-x-2 bg-secondary/50 rounded-full px-3 py-1.5 text-sm hover:bg-amber-600/20 transition-colors"
       >
         <Globe className="h-4 w-4" />
-        <span>{language === "pt" ? "Português" : "English"}</span>
+        <span>{language === "pt" ? "PT" : "EN"}</span>
       </button>
       
       {isOpen && (
@@ -34,7 +34,7 @@ export default function LanguageSwitch() {
                 language === "pt" ? "bg-secondary/70" : ""
               }`}
             >
-              Português
+              PT
             </button>
             <button
               onClick={() => selectLanguage("en")}
@@ -42,7 +42,7 @@ export default function LanguageSwitch() {
                 language === "en" ? "bg-secondary/70" : ""
               }`}
             >
-              English
+              EN
             </button>
           </div>
         </div>

@@ -27,7 +27,7 @@ export default function AboutPage() {
         </p>
       </motion.div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -37,18 +37,6 @@ export default function AboutPage() {
             icon={Code} 
             title={t.about.webDevelopment} 
             description={t.about.webDevelopmentDescription} 
-          />
-        </motion.div>
-        
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        >
-          <SkillCard 
-            icon={PencilRuler} 
-            title={t.about.uiDesign} 
-            description={t.about.uiDesignDescription} 
           />
         </motion.div>
         

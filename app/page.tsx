@@ -2,11 +2,9 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
 import { Heading, Text } from "@/components/ui/typography";
 import AnimatedText from "@/components/AnimatedText";
 import GeometricDecoration from "@/components/GeometricDecoration";
-import Link from "next/link";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -18,7 +16,7 @@ export default function Home() {
       
       <div className="container max-w-6xl mx-auto px-4 z-10">
         <div className="flex flex-col items-center justify-center text-center">
-          <div className="space-y-4 mb-8">
+          <div className="space-y-4">
             <AnimatedText 
               text={t.hero.title}
               className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter justify-center"
